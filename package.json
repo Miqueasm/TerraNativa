@@ -1,0 +1,12 @@
+{
+  "name": "tierra-nativa-web",
+  "version": "1.0.0",
+  "description": "Sitio web de Tierra Nativa",
+  "main": "server.js",
+  "scripts": {
+    "start": "live-server public"
+  },
+  "dependencies": {},
+  "author": "Miqueas",
+  "license": "MIT"
+}

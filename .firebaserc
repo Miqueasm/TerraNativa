@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "terranativa-6d430"
+  },
+  "targets": {
+    "terranativa-6d430": {
+      "hosting": {
+        "produccion": ["terranativa-6d430"]
+      }
+    }
+  }
+}

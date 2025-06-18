@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terra Nativa</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Terra Nativa</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="https://wa.me/c/595972632298" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/terranativapy?igsh=OTMzMmJkeXNjNnE2" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalogo" id="catalogo">
+      <h2>Catálogo de Productos</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="/assets/img/producto1.jpg" alt="Producto 1" />
+          <p>Descripción breve del producto</p>
+        </div>
+        <div class="producto">
+          <img src="/assets/img/producto2.jpg" alt="Producto 2" />
+          <p>Descripción breve del producto</p>
+        </div>
+        <div class="producto">
+          <img src="/assets/img/producto3.jpg" alt="Producto 3" />
+          <p>Descripción breve del producto</p>
+        </div>
+        <div class="producto">
+          <img src="/assets/img/producto4.jpg" alt="Producto 4" />
+          <p>Descripción breve del producto</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pedido">
+      <h2>Realizar Pedido</h2>
+      <form id="pedido-form">
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required />
+        <select id="producto" name="producto" required>
+          <option disabled selected value="">Selecciona un producto</option>
+          <option>Producto 1</option>
+          <option>Producto 2</option>
+          <option>Producto 3</option>
+          <option>Producto 4</option>
+        </select>
+        <button type="submit">Enviar Pedido</button>
+        <button type="button" id="limpiar">Limpiar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="/js/scripts.js"></script>
+</body>
+</html>
